@@ -6,9 +6,9 @@
 
 # ---- 网站基本设置 ----
 locale                   : "zh-CN"
-title                    : "甄泽盛 (Zesheng Zhen)"
+title                    : "My Academic Site"
 title_separator          : "-"
-name                     : &name "甄泽盛"
+name                     : &name "My Academic Site"
 description              : &description "个人学术主页 —— 机械工程"
 url                      : https://zzs-codesource.github.io
 baseurl                  : ""
@@ -50,7 +50,7 @@ analytics:
 
 # ---- 网站作者 (左侧边栏信息) ----
 author:
-  name             : "甄泽盛"
+  name             : "My Academic Site"
   avatar           : "profile.jpg"            # 照片放在 /images/ 目录下
   bio              : "机械工程专业本科生"
   location         : "天津，中国"

@@ -1,2 +1,2 @@
-# zzs-codesource.github.io
-甄泽盛个人网站
+# My Academic Site
+个人学术网站
