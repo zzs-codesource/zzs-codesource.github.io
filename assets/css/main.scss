@@ -1,7 +1,14 @@
 ---
-# 自定义 CSS（覆盖主题默认样式）
-# 可以在这里添加自定义样式
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+@charset "utf-8";
+
+// 引入 Minimal Mistakes 主题样式（必须！否则没有样式）
+@import "minimal-mistakes/skins/default";   // 皮肤
+@import "minimal-mistakes";                 // 主题核心样式
+
+/* ===== 以下是自定义 CSS 覆盖 ===== */
 
 /* 侧边栏作者信息 */
 .sidebar {
