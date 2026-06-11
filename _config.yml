@@ -1,0 +1,103 @@
+# ============================================================
+# 个人学术网站配置文件
+# 基于 Minimal Mistakes (AcademicPages 风格) 主题
+# 修改下面的信息为你自己的内容
+# ============================================================
+
+# ---- 网站基本设置 ----
+locale                   : "zh-CN"
+title                    : "甄泽盛 (Zesheng Zhen)"
+title_separator          : "-"
+name                     : &name "甄泽盛"
+description              : &description "个人学术主页 —— 机械工程"
+url                      : https://zzs-codesource.github.io
+baseurl                  : ""
+repository               : "zzs-codesource/zzs-codesource.github.io"
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+
+# ---- 远程主题 (和 liqiaofeng1990 一样的视觉风格) ----
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default"   # "air", "aqua", "contrast", "dark", "default", "dirt", "mint", "neon", "plum", "sunrise"
+
+# ---- 插件 (GitHub Pages 白名单内) ----
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+
+# ---- 页脚 ----
+footer:
+  links:
+
+# ---- SEO ----
+google_site_verification :
+bing_site_verification   :
+
+# ---- 社交媒体分享 ----
+twitter:
+  username               :
+facebook:
+  username               :
+og_image                 :
+
+# ---- 统计 ----
+analytics:
+  provider               : false
+
+# ---- 网站作者 (左侧边栏信息) ----
+author:
+  name             : "甄泽盛"
+  avatar           : "profile.jpg"            # 照片放在 /images/ 目录下
+  bio              : "机械工程专业本科生"
+  location         : "天津，中国"
+  email            : ""
+  googlescholar    : ""
+  researchgate     : ""
+  orcid            : ""
+  github           : "zzs-codesource"
+  twitter          : ""
+  linkedin         : ""
+
+# ---- 文件包含/排除 ----
+include:
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# ---- 默认 Front Matter ----
+defaults:
+  # _pages (所有页面)
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_more: "disabled"
+      comments: false
+      share: false
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_more: "disabled"
+      comments: false
+      share: false
+
+# ---- 数学公式 (MathJax) ----
+mathjax: true

@@ -1,0 +1,16 @@
+# 主导航菜单
+main:
+  - title: "CV"
+    url: /cv/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "News"
+    url: /news/
+
+  - title: "Contact"
+    url: /contact/
